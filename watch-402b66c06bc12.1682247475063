@@ -1,0 +1,25 @@
+(function() {
+  var template = "\
+    frame_width=320;frame_height=50; <a id='atLink-d3f1fe37d0e287aeaa3c7bf3946bb02b' href='https://1wooxx.life/casino/list/4?sub1=3f6bffb8f5162d81d6db7a644ee18f21#g0ce' target='_blank'><img border='0' alt='' src='https://cdn.cloudimagesb.com/cti/e8/60/b5/e860b59f5ec30bea9a5aa2370976aef7/1708270414.jpg' width='320' height='50'></a><script type='text/javascript'>                (function() {                        var bn;                        if (bn = document.getElementById('atLink-d3f1fe37d0e287aeaa3c7bf3946bb02b')) {                                var callback = function () { (new Image()).src = '//trucelabwits.com/clk.gif?landing_id=5000587&placement_id=23336604&sid=H4sIAAAAAAAC%2F1xTzWsdVRS%2F06ogglAXutDFoCKtNK%2F3zp1Pu5B%2B2A%2BaxNBGspT7mVwzb2a4d%2BZNklWxIoVuHq5cCE7OSxu0LdiFS0VeXVlQ8gQhm9CVuPYvkJdGnnhmcc7v9zsHzm849%2FPt5gAF0LD9cqHcMnnOzkQ97J9cMYUsW%2BcvLvsE9%2FBZf8UUcXjW34jDU%2F65qsrViuLXTH0mokmPxv7Ja1eWF%2BZP%2B7lZV%2F5lJdbLU%2F6FNVv21RmCsx6efv4Nppk1RyNgqocEB70M98KkR1IMG%2FZ%2FhGs8cMwDOThAr4CRkxc%2F%2FqsEI8ZQ9L%2B7qNx6XVanP%2Bg3OatLCwO5%2B1GxXpRtAf1Zqa0Hutg96obSTRD68hiUxe6RRSgHO1OLwM0EeU8fAC%2FuPdsc%2BGBEcAY8B1UAly9BOxiDysdg2BhEeQuM3ENfg5CweBmK%2Fu6iWVXWsGcym8oTdPzNz8C0z3LRv7%2BwvOj%2F27ahOzAbYzCrY6iax1BveWDaMYj6UzDyV%2FTW5jtQ9B8ulbb2rzArysbWYOT%2B24EmYaoTMkfjiMyFkRZzWcyTuUCTOIwFkREVh7%2FJmDEYPYZcDYG5Y9A4DxrjQaM9aCoP%2BnLf1xnBcShIkGUByzTDUagjrVSCMQ6UCKARUydDqKshiHwIwt6Eyt6EdfPF3vE%2F9p5%2FCrb5Cdza%2Fo9aqzSWYaQVj8MslqFSWqcqzhQOkiSjQusswjqKZCIIwTjCmSY0xphIzCOdKUKjlOtIR5xwlmWE6TCgmRCCs4wxRhPMOBFMaZwwmgkdExroQGFFJYtokIowCCIRZWkoAqICnCZKKEHDMFKZSjHNSJhwoYVSjIYhVQmNiRQk1ZGMUnDSA1cjGMgOWoWgdQhahqA1CNoaQTvo7srcBa67J3PXcHKUg6NMu1FZr26zu2W9qgoEzA7Bym67OkAnprfgyVe%2FgnW170uqiVY0kVgFacIUY1QkXNMsjDnHAQdnOjDuGDDnwZaZoPd%2B24HKTNCJ6m%2Fg7DG4%2FDEI8wawxgfWjmiAga1BhGGr%2BL5im301VyuW9wbKCpX3WFWBLDuo6ueg3vS28wP0%2BuFtzi%2FcASWeoKMAYTuobAefmJ8RrOa3R9fLFu1cL1uHHn1Y1aZvtlhtyuJGzWr1wrfX1GZbWnn1oht%2Bc05MhWn5YFm5ep4V0hSrDt0%2Fb6RU9lJphUI%2FXHUrii81bu18Y4umml%2B6cOlqv7LKOVMWY2BmT%2F0CwkzQy38ODt%2Fju3deA2PHYJsO%2Bs1sU1OOQVQ3wVUzzpUIbD7DvELQNt3IBnxG5gZBrmaY8Q7cfzCf1SPLptPMdNvuNqxaD1h9C4p%2BBwPbwSDvgOVDcM3xUV3ZJ%2B%2F%2FTg8DeO6NeG7RDs%2FtVDf7Po5SRWjIOVWayJCGXCtKg5TFsUyzIIXaTfSjpY1%2FAAAA%2F%2F8BAAD%2F%2F9PSpGmNBQAA&psid=';};                                if (bn.addEventListener) bn.addEventListener('click', callback, false);                                else if (bn.attachEvent) bn.attachEvent('onclick', callback);                                else bn.onclick = callback;                        }                })();</script> \
+  ";
+  if (typeof atAsyncContainers === 'object' && atAsyncContainers['d3f1fe37d0e287aeaa3c7bf3946bb02b']) {
+    var container, scripts;
+    if (container = document.getElementById(atAsyncContainers['d3f1fe37d0e287aeaa3c7bf3946bb02b'])) {
+      container.innerHTML = template;
+      scripts = container.getElementsByTagName('script');
+      for (var i = 0; i < scripts.length; i++) {
+        if (!!scripts[i].src) {
+          (function(raw) {
+            var script = document.createElement('script');
+            for (var j = 0, length = raw.attributes.length; j < length; j++) {
+              script[raw.attributes[j]['name']] = raw.attributes[j]['value'];
+            }
+            raw.parentNode.replaceChild(script, raw);
+          })(scripts[i]);
+        } else {
+          eval(scripts[i].innerHTML);
+        }
+      }
+    }
+  }
+})();
